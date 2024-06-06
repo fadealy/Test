@@ -97,7 +97,7 @@ ul li::before{
     height: 28px; /* Высота маркера */
     width: 28px; /* Ширина маркера */
     border-radius: 50%; /* Закругляем углы для создания круглого маркера */
-    background-image: url(/icons/unchechked.png); /* Устанавливаем изображение маркера */
+    background-image: url(./icons/unchechked.png); /* Устанавливаем изображение маркера */
     background-size: cover; /* Масштабируем изображение, чтобы оно полностью покрывало маркер */
     background-position: center; /* Центрируем изображение в маркере */
     top: 50%; /* Позиционируем маркер относительно верхней границы элемента списка */
@@ -113,7 +113,7 @@ ul li.checked{
 
 /* Стили для маркера выполненных задач */
 ul li.checked::before{
-    background-image: url(/icons/chechked.png); /* Изменяем изображение маркера для выполненных задач */
+    background-image: url(../icons/chechked.png); /* Изменяем изображение маркера для выполненных задач */
 }
 
 /* Стили для кнопки удаления задачи */
